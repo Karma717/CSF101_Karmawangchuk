@@ -17,7 +17,6 @@ def append_to_file(filename, new_line):
         file.write(new_line + "\n")
 append_to_file('sample.txt', "This is the append line.")
 print("Line append successfully")
-
 read_and_print_file('sample.txt')
 
 def print_lines_with_numbers(filename):
